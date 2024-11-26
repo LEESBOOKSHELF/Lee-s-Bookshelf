@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lee`s BookShelf</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images\logo.jpg" alt="My Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#books">Books</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <button class="menu-toggle">☰</button>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Lee`s BookShelf</h1>
+                <p>Free Books for Everyone</p>
+                <a href="#books" class="btn">Available Books</a>
+            </div>
+        </section>
+
+        <section class="book-section" id="books">
+    <h2>Free Downloadable Books</h2>
+    <input type="text" id="search-bar" placeholder="Search for books..." class="search-bar">
+    <div class="book-cards">
+        <!-- Book 1 -->
+        <div class="book-card" data-title="Data Structures and Algorithms in Java 2nd-Edition">
+            <img src="images/1.jpg" alt="Book 1">
+            <h3>Data Structures and Algorithms in Java 2nd-Edition</h3>
+            <p>A short description of the book.</p>
+            <a href="bookFiles/1schoolboek-data_structures_and_algorithms_in_java.pdf" download class="btn">Download</a>
+        </div>
+
+        <!-- Book 2 -->
+        <div class="book-card" data-title="Networking All In  One for Dummies 7th-Edition">
+            <img src="images/2.jpg" alt="Book 2">
+            <h3>Networking All In  One for Dummies 7th-Edition</h3>
+            <p>A short description of the book.</p>
+            <a href="bookFiles/2networking-all-in-one-for-dummies-7th-edition.pdf" download class="btn">Download</a>
+        </div>
+
+        <!-- Book 3 -->
+        <div class="book-card" data-title="The Self Taught Programmer">
+            <img src="images/3.jpg" alt="Book 3">
+            <h3>The Self Taught Programmer</h3>
+            <p>A short description of the book.</p>
+            <a href="bookFiles/3Cory-Althoff-The-Self-Taught-Programmer_-The-Definitive-Guide-to-Programming-Professionally-Self-Taught-Media-2016.pdf" download class="btn">Download</a>
+        </div>
+
+        <!-- Book 4 -->
+        <div class="book-card" data-title="Java How to Program 9th-Edition">
+            <img src="images/4.jpg" alt="Book 4">
+            <h3>Java How to Program 9th-Edition</h3>
+            <p>A short description of the book.</p>
+            <a href="bookFiles/4download-pdf-ebooks.org-1489929113Bv7P9.pdf" download class="btn">Download</a>
+        </div>
+
+        <!-- Book 5 -->
+        <div class="book-card" data-title="Introduction to Algorithms 3rd-Edition">
+            <img src="images/5.png" alt="Book 5">
+            <h3>Introduction to Algorithms 3rd-Edition</h3>
+            <p>A short description of the book.</p>
+            <a href="bookFiles/5Introduction_to_Algorithms_Third_Edition_(2009).pdf" download class="btn">Download</a>
+        </div>
+
+        <!-- Book 6 -->
+        <div class="book-card" data-title="Thinking in Java 4th-Edition">
+            <img src="images/6.png" alt="Book 6">
+            <h3>Thinking in Java 4th-Edition</h3>
+            <p>A short description of the book.</p>
+            <a href="bookFiles/6Eckel - Thinking in Java (4th 2006) p1079.pdf" download class="btn">Download</a>
+        </div>
+
+    </div>
+    <p id="no-match" class="no-match">Book Not Available</p>
+</section>
+
+<section class="about-us" id="about">
+    <div class="about-content">
+        <h2>About Us</h2>
+        <p>
+            Welcome to our platform!
+            
+            We believe that education is the key to unlocking a brighter future for individuals and communities alike. Our mission is to improve the quality of education by making a diverse collection of books freely accessible to everyone, everywhere.
+
+            Whether you're a student striving for academic success, a teacher enriching your lessons, or a lifelong learner exploring new knowledge, we are here to support you. From textbooks and reference materials to novels and self-help guides, our library is tailored to inspire, educate, and empower.
+            
+            Together, let’s build a world where education knows no boundaries and knowledge is shared freely.
+        </p>
+        <a href="#contact" class="btn">Learn More</a>
+    </div>
+    <div class="about-image">
+        <img src="images/about-us.jpg" alt="About Us">
+    </div>
+</section>
+
+
+    </main>
+<script src="app.js"></script>
+</body>
+
+</html>
